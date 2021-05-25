@@ -1,0 +1,6 @@
+apiVersion: webapp.my.domain/v1
+kind: Redis
+metadata:
+  name: redis-sample
+spec:
+  followerReplicas: 1

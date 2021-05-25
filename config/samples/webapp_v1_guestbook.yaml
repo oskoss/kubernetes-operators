@@ -1,0 +1,10 @@
+apiVersion: webapp.my.domain/v1
+kind: GuestBook
+metadata:
+  name: guestbook-sample
+spec:
+  redisName: redis-sample
+  frontend:
+    resources:
+      requests:
+        cpu: 50m
